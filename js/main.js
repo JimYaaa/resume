@@ -45,10 +45,10 @@ $(window).scroll(function() {
 
   if($(window).scrollTop() >= $('.skill-wrap').offset().top){
     $('#bar-1').delay(1000).css('height', '260px');
-    $('#bar-2').delay(1000).css('height', '245px');
-    $('#bar-3').delay(1000).css('height', '200px');
-    $('#bar-4').delay(1000).css('height', '110px');
-    $('#bar-5').delay(1000).css('height', '230px');
+    $('#bar-2').delay(1000).css('height', '400px');
+    $('#bar-3').delay(1000).css('height', '350px');
+    $('#bar-4').delay(1000).css('height', '310px');
+    $('#bar-5').delay(1000).css('height', '330px');
     $('#bar-6').delay(1000).css('height', '180px');
     $('.skill').addClass('here');
     $('.resume').removeClass('here');
